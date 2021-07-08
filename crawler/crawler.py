@@ -6,6 +6,7 @@ import pandas as pd
 import random
 from datetime import datetime
 from datetime import timedelta
+import os
 
 URL = "https://m.land.naver.com/complex/getComplexArticleList"
 
