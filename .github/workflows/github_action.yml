@@ -32,8 +32,8 @@ jobs:
     - name: Execute python script
       #env:
       #  ENV_A: ${{ secrets.ENV_A }}
-      run: python naver_re.py
-    
+      run: python crawler.py
+      working-directory: ./crawler
     - name: Commit result files
       run: |
         git config --local user.email "action@github.com"
