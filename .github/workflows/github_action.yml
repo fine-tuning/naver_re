@@ -9,7 +9,7 @@ on:
     - cron: '0 5 * * *' # runs at 05:00 UTC everyday (14:00 Seoul)
     # https://crontab.guru/#0_5_*_*_*
   push:
-    branches: main
+    branches: test1
 
 jobs:
   build:
